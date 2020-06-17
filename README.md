@@ -8,5 +8,6 @@ client, server, and redis services are
 working fine, the routing thus with docker-compose is working.
 
 Update 2:
-After _actually_ debugging attempt(reading logs) it appears the nev variables passed to worker service were not set.
+After _actually_ debugging attempt(reading logs) it appears the env variables
+passed to worker service were not set.
 That's fixed, but postgres is down, probably same problem of env variables.
