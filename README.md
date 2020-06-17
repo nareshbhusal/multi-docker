@@ -1,4 +1,4 @@
-#Probably a bug in nginx's default.conf or likely in postgres
+Probably a bug in nginx's default.conf or likely in postgres
 Fix that and docker-compose should run.
 
 Update:
