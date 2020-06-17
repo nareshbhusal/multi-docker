@@ -2,7 +2,7 @@ Probably a bug in nginx's default.conf or likely in postgres
 Fix that and docker-compose should run.
 
 Update:
-The problem is with redis setup.
+The problem is with the redis setup.
 
 client, server, and redis services are
 working fine, the routing thus with docker-compose is working.
